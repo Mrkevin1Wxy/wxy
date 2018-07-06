@@ -1,0 +1,179 @@
+@charset "UTF-8";
+@media (min-width: 320px) {
+  html {
+    font-size: 17.06666667px;
+  }
+}
+@media (min-width: 360px) {
+  html {
+    font-size: 19.2px;
+  }
+}
+@media (min-width: 375px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media (min-width: 384px) {
+  html {
+    font-size: 20.48px;
+  }
+}
+@media (min-width: 400px) {
+  html {
+    font-size: 21.33333333px;
+  }
+}
+@media (min-width: 414px) {
+  html {
+    font-size: 22.08px;
+  }
+}
+@media (min-width: 424px) {
+  html {
+    font-size: 22.61333333px;
+  }
+}
+@media (min-width: 480px) {
+  html {
+    font-size: 25.6px;
+  }
+}
+@media (min-width: 540px) {
+  html {
+    font-size: 28.8px;
+  }
+}
+@media (min-width: 640px) {
+  html {
+    font-size: 34.13333333px;
+  }
+}
+@media (min-width: 720px) {
+  html {
+    font-size: 38.4px;
+  }
+}
+@media (min-width: 750px) {
+  html {
+    font-size: 40px;
+  }
+}
+.mmm_content {
+  margin-top: 0.3rem;
+}
+.mmm_content .content_common {
+  float: left;
+  height: 4.75rem;
+  width: 25%;
+  padding-top: 1.2rem;
+  padding-left: 0.9rem;
+  margin-bottom: 0.6rem;
+}
+.mmm_content .content_common a {
+  display: block;
+}
+.mmm_content .content_common a img {
+  max-width: 2.625rem;
+}
+.mmm_content .content_common a p {
+  margin-top: 0.125rem;
+  font-size: 0.65rem;
+  color: #000;
+}
+.mmm_tuijian {
+  height: 1.7rem;
+  width: 100%;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffaf47), to(#ff9000));
+}
+.mmm_tuijian .tuijian_left {
+  float: left;
+}
+.mmm_tuijian .tuijian_left p {
+  display: inline-block;
+  font-size: 0.7rem;
+  margin-top: 0.25rem;
+  margin-left: 0.25rem;
+  color: #fff;
+}
+.mmm_tuijian .tuijian_right {
+  float: right;
+  height: 1rem;
+  width: 1rem;
+  margin-top: 0.3rem;
+  margin-right: 0.4rem;
+}
+.mmm_tuijian .tuijian_right img {
+  max-width: 1rem;
+  max-height: 1rem;
+}
+.product_list ul li {
+  height: 6.45rem;
+  width: 100%;
+}
+.product_list ul li a {
+  height: 6.45rem;
+  width: 100%;
+}
+.product_list ul li a .pic {
+  float: left;
+}
+.product_list ul li a .pic img {
+  float: left;
+  width: 5.75rem;
+  height: 5.75rem;
+  background-color: pink;
+}
+.product_list ul li a .info {
+  padding-left: 5.75rem;
+  height: 100%;
+}
+.product_list ul li a .info .title {
+  float: left;
+  height: 1.425rem;
+  font-size: 0.7rem;
+  margin-top: 0.25rem;
+}
+.product_list ul li a .info .title .first {
+  color: #000;
+}
+.product_list ul li a .info .title .second {
+  color: #ff6c00;
+}
+.product_list ul li a .info .other {
+  float: left;
+  margin-top: 3rem;
+  width: 100%;
+}
+.product_list ul li a .info .other .mall {
+  float: left;
+}
+.product_list ul li a .info .other .other_right {
+  float: right;
+}
+.mmm_paihang {
+  height: 1.7rem;
+  width: 100%;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffaf47), to(#ff9000));
+}
+.mmm_paihang .paihang_left {
+  float: left;
+}
+.mmm_paihang .paihang_left p {
+  display: inline-block;
+  font-size: 0.7rem;
+  margin-top: 0.25rem;
+  margin-left: 0.25rem;
+  color: #fff;
+}
+.mmm_paihang .paihang_right {
+  float: right;
+  height: 1rem;
+  width: 1rem;
+  margin-top: 0.3rem;
+  margin-right: 0.4rem;
+}
+.mmm_paihang .paihang_right img {
+  max-width: 1rem;
+  max-height: 1rem;
+}

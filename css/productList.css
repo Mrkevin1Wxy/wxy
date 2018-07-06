@@ -1,0 +1,80 @@
+.nav {
+  height: 1.85rem;
+  background: linear-gradient(to bottom, #fff, #ebebeb);
+  width: 100%;
+  line-height: 1.85rem;
+}
+.nav a {
+  display: block;
+  float: left;
+  color: #000;
+  font-size: 1rem;
+}
+.product_list ul li {
+  height: 6.45rem;
+  width: 100%;
+}
+.product_list ul li a {
+  height: 6.45rem;
+  width: 100%;
+}
+.product_list ul li a .pic {
+  float: left;
+}
+.product_list ul li a .pic img {
+  float: left;
+  width: 5.75rem;
+  height: 5.75rem;
+  background-color: pink;
+}
+.product_list ul li a .info {
+  padding-left: 5.75rem;
+  height: 100%;
+}
+.product_list ul li a .info .title {
+  float: left;
+  height: 1.425rem;
+  font-size: 0.7rem;
+  margin-top: 0.25rem;
+}
+.product_list ul li a .info .title .first {
+  color: #000;
+}
+.product_list ul li a .info .title .second {
+  color: #ff6c00;
+}
+.product_list ul li a .info .other {
+  float: left;
+  margin-top: 3rem;
+  width: 100%;
+}
+.product_list ul li a .info .other .mall {
+  float: left;
+}
+.product_list ul li a .info .other .other_right {
+  float: right;
+}
+.fenye_box {
+  height: 2.35rem;
+  width: 100%;
+}
+.fenye_box button {
+  height: 1.7rem;
+  width: 4.1rem;
+  background: linear-gradient(to bottom, #f1f1f1, #d4d4d4);
+  border-radius: 0.125rem;
+}
+.fenye_box .boxleft {
+  position: absolute;
+  left: 1.05rem;
+}
+.fenye_box .boxright {
+  position: absolute;
+  right: 1.05rem;
+}
+.fenye_box .boxmiddle {
+  float: left;
+  position: absolute;
+  left: 42%;
+  transform: tanslateX(-50%);
+}

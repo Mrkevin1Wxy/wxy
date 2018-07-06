@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/product.css">
+
+
+  <title>首页</title>
+</head>
+
+<body>
+  <div class="mmm_header">
+    <div class="header_logo">
+      <img src="./images/header_logo.png" alt="">
+    </div>
+    <div class="header_upload">
+      <a href="javascript:;">
+        <img src="./images/header_app.png" alt="">
+      </a>
+    </div>
+  </div>
+
+  <!-- 搜索栏 -->
+  <div class="mmm_search">
+    <input type="text" class="search_input" placeholder="请输入你想比价的商品">
+    <button class="search_button">搜索</button>
+  </div>
+
+  <!-- 分类栏 -->
+
+  <div class="nav">
+    <a href="javascript:;">首页 &gt </a>
+    <a href="javascript:;"></a>
+    <a href="javascript:;"></a>
+  </div>
+
+
+  <!--标题头部  -->
+ <div class="head clearfix">
+    <!-- 挖个坑 -->
+ </div>
+
+ <!-- content -->
+
+ <div class="content clearfix">
+   <ul class="clearfix">
+     <li><a  class="firsta" href="#">比价购买</a></li>
+     <li><a  class="seconda" href="#">产品参数</a></li>
+     <li><a  class="tirda" href="#"></a></li>
+   </ul>
+ </div>
+
+ <!-- price -->
+ <div class="price">
+  <div class="priceName">京东商城</div>
+  <button>去购买</button>
+  <div class="priceBox"></div>
+
+ </div>
+
+
+
+ <!-- 备注 -->
+ <div class="beizhu">*实际价格以各网站列出的实时售价为准，我们提供的价格可能有数小时至数日的延迟。</div>
+  
+  <!-- 评价 -->
+  <div class="pingjia">
+    网友评价
+  </div>
+ 
+  <!-- 评价内容 -->
+
+  <div class="pingjia_content">
+    <!-- 挖个坑 -->
+
+
+  </div>
+ <!-- 底部 -->
+
+  <div class="footer">
+    <ul>
+      <li>
+        <a href="#" width="30%">登陆</a>
+      </li>
+      <li>
+        <a href="#" width="30%">注册</a>
+      </li>
+      <li>
+        <a href="#" width="40%">返回顶部</a>
+      </li>
+    </ul>
+
+    <div class="footer_more">
+      <div class="footer_nav">
+        <span class="s1">手机APP下载</span>
+        <span class="s2">慢慢买手机版</span>
+        <span class="s3">-掌上比价平台</span>
+      </div>
+      <div class="nav2">
+        <span class="s4">m.manmanbuy.com</span>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- 商品模块 -->
+  <script type="text/html" id="tpl">
+  {{ each result v i }}
+    <div class="head_title">{{v.productName}}</div>
+    {{@v.productImg}}
+  {{ /each}}
+  </script>
+
+
+<!-- 评论模块 -->
+<script type="text/html" id="tpl2">
+  {{each result v i}}
+    <div class="pingjia_head">
+      <div class="user">{{v.comName}}</div>
+      <div class="time">{{v.comTime}}</div>
+    </div>
+    <div class="pingjia_info">
+      {{v.comContent}}
+    </div>
+
+  {{/each }}
+
+</script>
+
+
+
+
+
+
+
+  <script src="./lib/jquery/jquery.min.js"></script>
+  <script src="./lib/artTemplate/template-web.js"></script>
+  <script src="./js/product.js"></script>
+  <script src="./js/common.js"></script>
+</body>
+
+</html>
